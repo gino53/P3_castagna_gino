@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,WAAW,CAAC;EACR,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,GAAG;EACV,gBAAgB,ECDP,OAAO;CDEnB",
+    "sources": [
+        "../sass/components/check-logo.scss",
+        "../sass/base/_var.scss"
+    ],
+    "names": [],
+    "file": "check-logo.css"
+}

@@ -1,0 +1,41 @@
+@import '../base/_var.scss';
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: $white-color;
+}
+
+.text-style {
+    font-family: $font-shrikhand;
+    font-size: large;
+    padding-bottom: 0.5rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 170px;
+    padding: 1rem 0 0 1.5rem;
+}
+
+.list i {
+    padding-right: 1.5rem;
+}
+
+.list a {
+    color: $white-color;
+    width: max-content;
+}
+
+.list a:hover {
+    color: $mint-color;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}

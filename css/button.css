@@ -1,0 +1,12 @@
+.btn {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 2rem;
+  background: linear-gradient(#e77ddd, #aa55e7);
+  box-shadow: 0px 5px 20px #bdb3b3;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=button.css.map */

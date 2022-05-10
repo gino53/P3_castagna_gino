@@ -1,0 +1,10 @@
+.bloc-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 60px;
+  border-top-right-radius: 2.5rem;
+  border-top-left-radius: 2.5rem;
+  background-color: #f7f7f7;
+}
+/*# sourceMappingURL=section.css.map */

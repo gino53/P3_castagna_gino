@@ -1,0 +1,43 @@
+@import '../base/_var.scss';
+
+@import '../components/_check.scss';
+
+.small-card-size {
+    width: $size-100;
+    margin: 0.5rem 0;
+}
+
+.small-card {
+    display: flex;
+    position: relative;
+    box-sizing: content-box;
+    height: auto;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: $box-shadow;
+    color: $black-color;
+}
+
+.small-card:hover .check-box {
+    display: flex;
+}
+
+.small-card-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+}
+
+.small-card-text h4 {
+    padding-top: 0.25rem;
+    font-weight: normal;
+    text-overflow: ellipsis;
+    white-space: no-wrap;
+}
+
+.price {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    padding: 0.625rem 1.5rem 0.625rem 0.625rem;
+}

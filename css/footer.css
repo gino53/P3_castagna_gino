@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.781);
+  color: white;
+}
+
+.text-style {
+  font-family: 'Shrikhand', cursive;
+  font-weight: lighter;
+  padding-bottom: 0.5rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 170px;
+  padding: 1rem 0 0 1.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.footer i {
+  padding-right: 0.5rem;
+}
+/*# sourceMappingURL=footer.css.map */

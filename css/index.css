@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  margin-top: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  background: white;
+  animation: opacity-loader 2s linear both;
+}
+
+@keyframes opacity-loader {
+  0%, 80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.load {
+  font-family: "Shrikhand", cursive;
+  font-size: 50px;
+  animation: opacity-load 2s linear both;
+}
+
+@keyframes opacity-load {
+  20%, 30% {
+    opacity: 1;
+    color: #99e2d0;
+  }
+  40%, 50% {
+    opacity: 1;
+    color: #9356dc;
+  }
+  60%, 70% {
+    opacity: 1;
+    color: #99e2d0;
+  }
+  80%, 90% {
+    opacity: 1;
+    color: #9356dc;
+  }
+}
+
+.head-index {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.head-index img {
+  width: 40%;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  margin-top: 0.5rem;
+  background-color: #eaeaea;
+}
+
+.location h3 {
+  margin-left: 1rem;
+}
+
+.explore {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  padding: 2rem;
+  background-color: #f6f6f6;
+}
+
+.explore-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.explore-text span {
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.explore-text h3 {
+  font-weight: 400;
+  font-size: large;
+}
+
+.bloc-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem 0.5rem;
+}
+
+.bloc-card {
+  margin: 2.5rem 0;
+  padding: 1.25rem;
+}
+
+.bloc-button-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.button-card-size {
+  width: 95%;
+}
+
+.button-card {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  background-color: #f6f6f6;
+  box-shadow: 0 0.375rem 1.25rem #d1d1d1;
+}
+
+.button-card-text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: max-content;
+  color: black;
+}
+
+.button-card-text i {
+  color: #7e7e7e;
+  padding: 1.5rem;
+}
+
+.button-card:focus, .button-card:hover, .button-card:active {
+  background-color: #f5edff;
+}
+
+.button-card:focus .button-card-text i, .button-card:hover .button-card-text i, .button-card:active .button-card-text i {
+  color: #9356dc;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 15px;
+  top: 50px;
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 100%;
+  background-color: #9356dc;
+  color: white;
+}
+
+.btn-size {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.btn {
+  width: 250px;
+  padding: 1rem;
+  border: none;
+  border-radius: 2rem;
+  background: linear-gradient(#e77ddd, #9356dc);
+  box-shadow: 0 0.375rem 1.25rem #d1d1d1;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+}
+
+.btn-size {
+  margin: 0 0 0.5rem 0;
+}
+
+.section-index {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 1.25rem;
+  background-color: #f6f6f6;
+}
+
+.section-index h1 {
+  margin-bottom: 1rem;
+}
+
+.heart {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1rem;
+  cursor: pointer;
+}
+
+.heart i:hover {
+  color: #9356dc;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: bold;
+}
+
+.new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 110px;
+  height: 35px;
+  border-radius: 0.125rem;
+  color: #269d80;
+  background-color: #99e2d0;
+}
+
+.card-size {
+  width: 100%;
+  margin: 0.625rem 0;
+}
+
+.card {
+  position: relative;
+  height: 230px;
+  box-sizing: border-box;
+  border-radius: 1.25rem;
+  background-color: white;
+  box-shadow: 0 0.375rem 1.25rem #d1d1d1;
+  color: black;
+}
+
+.card:hover {
+  border: 0.25rem solid #99e2d0;
+}
+
+.card-image {
+  height: 70%;
+  overflow: hidden;
+}
+
+.card-image img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.card-text-size {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-text {
+  padding: 0.75rem;
+}
+
+.card-text h4 {
+  font-weight: normal;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.781);
+  color: white;
+}
+
+.text-style {
+  font-family: "Shrikhand", cursive;
+  font-size: large;
+  padding-bottom: 0.5rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 170px;
+  padding: 1rem 0 0 1.5rem;
+}
+
+.list i {
+  padding-right: 1.5rem;
+}
+
+.list a {
+  color: white;
+  width: max-content;
+}
+
+.list a:hover {
+  color: #99e2d0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+/*# sourceMappingURL=index.css.map */

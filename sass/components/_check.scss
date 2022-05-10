@@ -1,0 +1,38 @@
+@import '../base/_var.scss';
+
+@import '../animations/_roll-in-right.scss';
+
+.check-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $size-100;
+    transition: all 0.5s ease-in-out;
+    width: 0;
+    border-radius: 0 1rem 1rem 0;
+    background-color: $mint-color;
+}
+
+.small-card:hover .check-box {
+    width: 20%;
+    transition: all 0.5s ease-in-out;
+}
+
+.check {
+    color: $white-color;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.small-card:hover .check {
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+
+    i {
+        animation: roll-in-right 1s ease-in-out both;
+    }
+}
+

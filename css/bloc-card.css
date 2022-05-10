@@ -1,0 +1,7 @@
+.bloc-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+}
+/*# sourceMappingURL=bloc-card.css.map */

@@ -1,0 +1,17 @@
+@for $i from 0 through 2 {
+  .slide-in-top#{$i+1} {
+    animation: slide-in-top 0.1s * $i linear both;
+    animation-delay: 2s;
+  }
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

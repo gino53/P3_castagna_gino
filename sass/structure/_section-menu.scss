@@ -1,0 +1,46 @@
+@import '../base/_var.scss';
+
+@import '../components/_heart.scss';
+
+.heart {
+    padding-right: 0;
+}
+
+section {
+    background-color: $grey-color;
+}
+
+.section-menu {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 60px;
+    border-top-right-radius: 2.5rem;
+    border-top-left-radius: 2.5rem;
+    padding: 0.5rem;
+    background-color: $grey-color;
+}
+
+.title-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 0 0.5rem;
+    padding: 0 1rem;
+}
+
+.title-section span {
+    font-family: $font-shrikhand;
+    font-size: xx-large;
+}
+
+.underline {
+    width: min-content;
+    padding-bottom: 0.5rem;
+}
+
+.underline h3 {
+    padding-bottom: 0.25rem;
+    border-bottom: 0.25rem solid $mint-color;
+    font-weight: normal;
+}

@@ -1,0 +1,28 @@
+@import '../base/_page.scss';
+
+@import '../base/_var.scss';
+
+@import '../structure/_loader.scss';
+
+@import '../structure/_header-index.scss';
+
+@import'../bloc/_bloc-card.scss';
+
+.bloc-card {
+    margin: 2.5rem 0;
+    padding: 1.25rem;
+}
+
+@import '../components/_button-card.scss';
+
+@import '../components/_button.scss';
+
+.btn-size {
+    margin: 0 0 0.5rem 0;
+}
+
+@import '../structure/_section-index.scss';
+
+@import '../components/_card.scss';
+
+@import '../structure/_footer.scss';

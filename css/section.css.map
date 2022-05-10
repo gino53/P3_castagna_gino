@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,aAAa,CAAC;EACV,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,IAAI;EACZ,uBAAuB,EAAE,MAAM;EAC/B,sBAAsB,EAAE,MAAM;EAC9B,gBAAgB,ECHP,OAAO;CDInB",
+    "sources": [
+        "../sass/structure/section.scss",
+        "../sass/base/_var.scss"
+    ],
+    "names": [],
+    "file": "section.css"
+}

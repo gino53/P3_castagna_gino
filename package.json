@@ -1,0 +1,22 @@
+{
+  "name": "p3_castagna_gino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gino53/ohmyfood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gino53/ohmyfood/issues"
+  },
+  "homepage": "https://github.com/gino53/ohmyfood#readme",
+  "dependencies": {
+    "sass": "^1.50.0"
+  }
+}

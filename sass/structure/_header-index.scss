@@ -1,0 +1,52 @@
+@import "../base/_var.scss";
+
+.head-index {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head-index img {
+    width: 40%;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: $size-100;
+    margin-top: 0.5rem;
+    background-color: $grey-color-2;
+}
+
+.location h3 {
+    margin-left: 1rem;
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    padding: 2rem;
+    background-color: $grey-color;
+}
+
+.explore-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: $size-100;
+}
+
+.explore-text span {
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.explore-text h3 {
+    font-weight: 400;
+    font-size: large;
+}

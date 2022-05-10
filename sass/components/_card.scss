@@ -1,0 +1,50 @@
+@import '../base/_var.scss';
+
+@import '../components/_heart.scss';
+
+@import '../components/_new.scss';
+
+.card-size {
+    width: $size-100;
+    margin: 0.625rem 0;
+}
+
+.card {
+    position: relative;
+    height: 230px;
+    box-sizing: border-box;
+    border-radius: 1.25rem;
+    background-color: white;
+    box-shadow: $box-shadow;
+    color: $black-color;
+}
+
+.card:hover {
+    border: 0.25rem solid $mint-color;
+}
+
+.card-image {
+    height: 70%;
+    overflow: hidden;
+}
+
+.card-image img {
+    max-width: $size-100;
+    width: $size-100;
+    max-height: $size-100;
+    object-fit: cover;
+    border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.card-text-size {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-text {
+    padding: 0.75rem;
+}
+
+.card-text h4 {
+    font-weight: normal;
+}
