@@ -18,21 +18,18 @@
     color: $black-color;
 }
 
-.small-card:hover .check-box {
-    display: flex;
-}
-
 .small-card-text {
     display: flex;
     flex-direction: column;
     padding: 0.75rem;
+    width: 80%;
 }
 
-.small-card-text h4 {
+.small-card-text span {
     padding-top: 0.25rem;
-    font-weight: normal;
     text-overflow: ellipsis;
-    white-space: no-wrap;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .price {

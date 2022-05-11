@@ -13,4 +13,6 @@
     background-clip: text;
     -webkit-background-clip: text;
     font-weight: bold;
+    transform: rotate(360deg);
+    transition: all 0.8s ease-in-out;
 }

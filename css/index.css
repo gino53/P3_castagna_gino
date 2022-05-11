@@ -10,22 +10,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.loader {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  pointer-events: none;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  overflow: hidden;
-  background: white;
-  animation: opacity-loader 2s linear both;
-}
-
 @keyframes opacity-loader {
   0%, 80% {
     opacity: 1;
@@ -58,6 +42,22 @@ body {
     opacity: 1;
     color: #9356dc;
   }
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  background: white;
+  animation: opacity-loader 2s linear both;
 }
 
 .head-index {
@@ -226,6 +226,8 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   font-weight: bold;
+  transform: rotate(360deg);
+  transition: all 0.8s ease-in-out;
 }
 
 .new {

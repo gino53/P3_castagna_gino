@@ -3,6 +3,7 @@
 @import '../animations/_roll-in-right.scss';
 
 .check-box {
+    flex-grow: 2;
     position: absolute;
     top: 0;
     right: 0;

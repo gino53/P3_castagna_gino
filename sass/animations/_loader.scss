@@ -1,0 +1,39 @@
+@import '../base/_var.scss';
+
+@keyframes opacity-loader {
+    0%, 80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.load {
+    font-family: $font-shrikhand;
+    font-size: 50px;
+    animation: opacity-load 2s linear both;
+}
+
+@keyframes opacity-load {
+    20%, 30% {
+        opacity: 1;
+        color: $mint-color;
+    }
+
+    40%, 50% {
+        opacity: 1;
+        color: $purple-color;
+    }
+
+    60%, 70% {
+        opacity: 1;
+        color: $mint-color;
+    }
+
+    80%, 90% {
+        opacity: 1;
+        color: $purple-color;
+    }
+}
