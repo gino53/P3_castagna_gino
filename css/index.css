@@ -22,10 +22,10 @@ body {
 .load {
   font-family: "Shrikhand", cursive;
   font-size: 50px;
-  animation: opacity-load 2s linear both;
+  animation: color-load 2s linear both;
 }
 
-@keyframes opacity-load {
+@keyframes color-load {
   20%, 30% {
     opacity: 1;
     color: #99e2d0;
@@ -57,7 +57,7 @@ body {
   z-index: 1;
   overflow: hidden;
   background: white;
-  animation: opacity-loader 2s linear both;
+  animation: opacity-loader 3s linear both;
 }
 
 .head-index {

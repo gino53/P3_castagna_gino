@@ -22,10 +22,10 @@ body {
 .load {
   font-family: "Shrikhand", cursive;
   font-size: 50px;
-  animation: opacity-load 2s linear both;
+  animation: color-load 2s linear both;
 }
 
-@keyframes opacity-load {
+@keyframes color-load {
   20%, 30% {
     opacity: 1;
     color: #99e2d0;
@@ -57,7 +57,7 @@ body {
   z-index: 1;
   overflow: hidden;
   background: white;
-  animation: opacity-loader 2s linear both;
+  animation: opacity-loader 3s linear both;
 }
 
 .head-menu {
@@ -154,18 +154,15 @@ section {
 }
 
 .slide-in-top1 {
-  animation: slide-in-top 0s linear both;
-  animation-delay: 2s;
+  animation: slide-in-top 0.4s linear both;
 }
 
 .slide-in-top2 {
-  animation: slide-in-top 0.1s linear both;
-  animation-delay: 2s;
+  animation: slide-in-top 0.6s linear both;
 }
 
 .slide-in-top3 {
-  animation: slide-in-top 0.2s linear both;
-  animation-delay: 2s;
+  animation: slide-in-top 0.8s linear both;
 }
 
 @keyframes slide-in-top {
@@ -258,6 +255,13 @@ section {
   top: 25px;
   right: 0;
   padding: 0.625rem 1.5rem 0.625rem 0.625rem;
+  transition: all 0.5s ease-in-out;
+  width: 18%;
+}
+
+.small-card:hover .price {
+  width: 38%;
+  transition: all 0.5s ease-in-out;
 }
 
 .bloc-card {

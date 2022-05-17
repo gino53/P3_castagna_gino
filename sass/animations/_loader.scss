@@ -13,10 +13,10 @@
 .load {
     font-family: $font-shrikhand;
     font-size: 50px;
-    animation: opacity-load 2s linear both;
+    animation: color-load 2s linear both;
 }
 
-@keyframes opacity-load {
+@keyframes color-load {
     20%, 30% {
         opacity: 1;
         color: $mint-color;
