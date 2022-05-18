@@ -18,30 +18,31 @@
     color: $black-color;
 }
 
+.small-card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    transition: all 0.5s ease-in-out;
+}
+
 .small-card-text {
     display: flex;
     flex-direction: column;
-    padding: 0.75rem;
-    width: 80%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
-.small-card-text span {
+.small-card-text span, .small-card-text h3 {
     padding-top: 0.25rem;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
 }
 
-.price {
-    position: absolute;
-    top: 25px;
-    right: 0;
-    padding: 0.625rem 1.5rem 0.625rem 0.625rem;
-    transition: all 0.5s ease-in-out;
-    width: 18%;
-}
-
-.small-card:hover .price {
-    width: 38%;
+.small-card:hover .small-card-content {
+    width: 80%;
     transition: all 0.5s ease-in-out;
 }
