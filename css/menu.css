@@ -290,6 +290,11 @@ section {
   cursor: pointer;
 }
 
+.btn:hover {
+  filter: brightness(1.08);
+  box-shadow: 0 0.375rem 1.25rem #717171;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
